@@ -1,0 +1,31 @@
+<html>
+<head>
+    <script language="JavaScript">
+    function greeting()
+    {
+      var name = prompt("Aidan Henderson");  
+      document.all.fm1.question.value = "Welcome, "+Aidan; 
+      document.all.userName.style.visibility = "visible";
+    }  
+    </script>    
+</head>
+<body>
+<center>
+<h1>New Webpage</h1>
+
+<p>Click here to <a href="index.html">return to my home page. </a>
+<br/><br/>
+
+<img src="images/fullny.jpeg" width="600"/>
+
+<br/><br/>
+<form name="fm1">
+    <div id=userName style="visibility:hidden; width='60'">
+        <input type="text" name="question" size="40"/>
+    </div>
+    <br/><br/>
+    <input type="button" value="Welcome" onClick="greeting()"/>
+</form>
+</center>
+</body>
+</html>
